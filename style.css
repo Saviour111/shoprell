@@ -1,0 +1,231 @@
+*{
+     
+    padding: 0;
+    margin: 0;
+}
+
+
+* {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+
+body{
+
+    
+    background-color: #f5f5f5;
+}
+
+.btn{
+    position: relative;
+    top: 130px;
+}
+
+
+.carousel-inner::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.727);
+    z-index: 1;
+}
+
+
+
+ .point{
+ position: relative;
+ z-index: 3;
+    top: 90px;
+ font-size: 25px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+} 
+
+.hide::after{
+    content: "";
+      width: 20%;
+      height: 3px;
+      display: block;
+      background-color: #038f74;
+      text-align: center;
+      margin-left: 530px;
+}
+.red::after{
+    content: " ";
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: black;
+}
+
+.card-body{
+    box-shadow: 15px 15px 40px rgb(221, 215, 208);
+}
+
+
+.hug1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+.hug{
+    background-color: #038f74;
+    font-size: 36px;
+    height: 10vh;
+  
+  }
+
+  .grill{
+    position: relative;
+    top: 50px;
+  }
+
+  
+#about{
+    border-radius: 15px;
+    
+    margin-top: 46px;
+  }
+
+.fling{
+  border: none green;
+  
+
+  
+}
+
+.fling::placeholder{
+  position: relative;
+  left: 20px;
+  
+}
+
+
+.fling{
+  height: 40px;
+  width: 30%;
+}
+
+
+.flirt::placeholder{
+  position: relative;
+  left: 20px;
+
+}
+
+.flirt{
+  border: none;
+}
+
+.flirt-1{
+  border: none;
+  background-color: #038f74;
+  width: 30%;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  width: 45%;
+}
+
+
+.correct1{
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+  margin-top: 100px;
+  
+}
+
+.red1{
+  background-color: #038f74;
+  padding: 11px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 375px){
+  .vril{
+    padding-top: 65px;
+    font-size: 30px;
+  }
+
+}
+@media screen and (max-width: 812px){
+  .vril{
+    padding-top: 65px;
+    font-size: 30px;
+  }
+}
+
+.hril{
+  box-shadow: 10px 10px 10px rgb(213, 211, 211);
+}
+
+.naim{
+  width: 40%;
+  height: 50px;
+  border: ridge;
+}
+
+.naim::placeholder{
+  position: relative;
+  left: 20px;
+  
+}
+
+.teamm{
+  background-color: #101d42;
+  height: 35vh;
+  
+}
+
+@media screen and (max-width: 375px) {
+  .teamm{
+    height: 55vh;
+
+
+}
+}
+
+
+@media screen and (max-width: 393px) {
+  .teamm{
+    height: 55vh;
+
+
+}
+}
+
+@media screen and (max-width: 390px) {
+  .teamm{
+    height: 55vh;
+}
+
+}
+.kan{
+  height: 40px;
+  border: none;
+}
+
+.kan::placeholder{
+  position: relative;
+  left: 10px;
+}
+
+.bilk{
+  padding-top: 50px;
+}
